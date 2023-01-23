@@ -97,7 +97,7 @@ class leader:
                 sumRight = 0
                 diagCountR = 0
                 # determine how many scans were taken during rotation
-                scanCount = int(scan.scan_time / scan.time_increment)
+                scanCount = int((scan.angle_max-scan.angle_min) / scan.angle_increment)
 
                 for i in range(scanCount):
                     # using min angle and incr data determine curr angle,
