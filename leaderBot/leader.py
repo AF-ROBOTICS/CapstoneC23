@@ -2,7 +2,6 @@
 import rospy, math, cv2, dlib
 from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist
-from usafabot.msg import USAFABOT_Cmd
 from geometry_msgs.msg import Vector3Stamped
 from sensor_msgs.msg import Image
 from apriltag_ros.msg import AprilTagDetectionArray
@@ -31,10 +30,10 @@ class leader:
             self.flip_side = False  # variable indicates true when following left wall\
             rospy.Subscriber('scan', LaserScan, self.callback_lidar)
             rospy.Subscriber('/tag_detections', AprilTagDetectionArray, self.tag_callback)
-            self.cmd = USAFABOT_Cmd()
-            self.kb = Twist()
+            
+            self.cmd = Twist()
             #rospy.Subscriber('cmd_vel', Twist, self.callback_keyboard)
-            self.pub = rospy.Publisher('usafabot_cmd', USAFABOT_Cmd, queue_size = 1)
+            self.pub = rospy.Publisher('cmd_vel', Twist, queue_size = 1)
             rospy.Timer(rospy.Duration(0.01), self.callback_controller)
             self.ctrl_c = False
             self.CWall = 5
