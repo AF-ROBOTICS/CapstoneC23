@@ -3,13 +3,11 @@
   <remap from="imu/data" to="raw_imu"/>
   <remap from="imu/mag" to="magnetic"/>
 
-  <node pkg="um7"
-        name="um7"
-        type="um7_driver">
-        output="screen">
+  <node pkg="um7" name="um7" type="um7_driver" output="screen">
         <param name="port" value="/dev/ttyACM1"/>
         <param name="reset_ekf" value="true"/>
         <param name="zero_gyros" value="true"/>
+  </node>
 
   <node pkg="hector_pose_estimation" type="pose_estimation" name="hector_pose_estimation" />
   <node pkg="rviz" type="rviz" name="hector_pose_estimation_rviz" args="-d $(find hector_pose_estimation)/rviz_cfg/hector_pose_estimation.rviz" />
