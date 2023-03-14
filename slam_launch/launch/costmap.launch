@@ -14,7 +14,7 @@
     <param name="grid_map_topic" value="scanmatcher_map" />
 
     <param name="use_elevation_map" value="true" />
-    <param name="elevation_map_topic" value="elevation_map_local" />
+    <param name="elevation_map_topic" value="/ElevationMapping/elevation_map_local" />
 
     <param name="use_cloud_map" value="false" />
     <param name="cloud_topic" value="openni/depth/points" />
