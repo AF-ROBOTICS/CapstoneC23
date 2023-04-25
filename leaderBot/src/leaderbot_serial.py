@@ -57,6 +57,7 @@ class USAFABOT:
             print(desc)
             if('Lynxmotion Botboarduino' in desc):
                 print(Port)
+                #print("{}: {} [{}]".format(Port, desc, hwid))
                 ser = serial.Serial(port = Port,
                     baudrate = 9600,
                     parity = serial.PARITY_NONE,

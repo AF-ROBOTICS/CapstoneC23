@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <launch>
   <node pkg="hector_elevation_mapping" type="ElevationMappingNode" name="ElevationMapping"  output="screen">
     <param name="elevation_resolution" value="0.01" />
@@ -10,7 +11,7 @@
     <param name="local_map_frame_id" value="base_stabilized" />
     <param name="local_elevation_map_topic" value="elevation_map_local" />
     <param name="gloabl_elevation_map_topic" value="elevation_map_global" />
-    <param name="point_cloud_topic" value="/velodyne_points"/>
+    <param name="point_cloud_topic" value="velodyne_points"/>
     <param name="grid_map_topic" value="scanmatcher_map"/>
     <param name="sys_msg_topic" value="syscommand" />
     <param name="publish_poseupdate" value="false" />
