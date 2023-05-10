@@ -22,7 +22,7 @@ Current setup:
 1. 1 antenna on each board (Be careful this connection is delicate)
 2. The master is set at the IP address: 192.168.168.11
 3. The slave is set up at the IP address: 192.168.168.12
-4. The work just as routers after setup
+4. These work just as routers after setup
 
 If you wish to restart both boards or start from scratch:
 1. Ensure the antenna is connected to the board - be careful as this connection is delicate
