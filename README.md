@@ -13,8 +13,8 @@ to get started slamming:
 
 2. run command in your ros workspace:
 	$ roslaunch slam_launch visual_slam.launch
-	
-3. profit
+3. This will lauch Rviz where you can see the slam in action
+4. profit
 
 # Microhard
 The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. 
