@@ -17,7 +17,13 @@ to get started slamming:
 3. profit
 
 # Microhard
-The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. If the label is gone, follow these directions.
+The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. 
+Current setup:
+1. 1 antenna on each board (Be careful this connection is delicate)
+2. The master is set at the IP address: 192.168.168.11
+3. The slave is set up at the IP address: 192.168.168.12
+
+If you wish to restart both boards or start from scratch:
 1. Ensure the antenna is connected to the board - be careful as this connection is delicate
 2. Locate the button on the side of the board and hold for 10 seconds to reset
 2a. This will reset the IP address to 192.168.168.1
