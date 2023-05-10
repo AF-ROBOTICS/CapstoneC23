@@ -22,4 +22,4 @@ The microhards are set up at the IP addresses taped to them, one as a master and
 2. Locate the button on the side of the board and hold for 10 seconds to reset
 2a. This will reset the IP address to 192.168.168.1
 3. Follow the user guide labeled here http://www.isnmp.com/download/pmddl2350/pMDDL.Operating%20Manual.v1.2.1.pdf
-4. When using this guide do not use the quick start instruction use the setup as master and slave instructions. I was not able to get the quick start to work, so I had to set up the new IP address manually and select slave and master.
+4. When using this guide execute the quick start manual steps. I was not able to get the quick start (Automatic) to work, so I had to set up the new IP address manually and select slave and master.
