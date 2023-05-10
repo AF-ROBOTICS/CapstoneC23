@@ -7,7 +7,7 @@ The repository for the convoy, specifically the follower bots are located at the
 
 # User Guide for Class of 24
 
-# slamming
+# SLAMming
 to get started slamming:
 1. Ensure vlodyne lidar is connected via ethernet port and proper ip configuration is complete IAW ROS velodyne vlp16 tutorial (http://wiki.ros.org/velodyne/Tutorials-Getting%20Started%20with%20the%20Velodyne%20VLP16) 
 
