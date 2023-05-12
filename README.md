@@ -1,7 +1,7 @@
 # CapstoneC23
 USAFA Robot Teaming Capstone 2022-2023
 
-This repository holds the instructions and code to run work of the Robot Teaming Capston 22/23. 
+This repository holds the instructions and code to run the work of the Robot Teaming Capstone of 2022/23. 
 The repository for the convoy, specifically the follower bots are located at the repository here: https://github.com/AF-ROBOTICS/Convoy
 
 
