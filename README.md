@@ -16,6 +16,14 @@ to get started slamming:
 3. This will lauch Rviz where you can see the slam in action
 4. profit
 
+# Leader Bot Movment
+Once the SLAM is running from the steps above, following the next steps will allow the leader bot to start moving in according to the current layot described in the tech doc
+1. Ensure wiring is properly connected. The group has had issues in the past with the USB connection from the NUC to the Arduino.
+2. Ensure NUC and robot car are both powerd on and untethered, this is inticated by the ESC fan running and and blue light on the NUC. 
+3. Open a second tab in the terminal alongside the SLAM
+4. rosrun leaderbot leaderbot_serial.py
+5. rosrun leaderbot leader.py
+
 # Microhard
 The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. 
 Current setup:
