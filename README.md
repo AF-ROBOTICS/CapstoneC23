@@ -1,12 +1,13 @@
 # CapstoneC23
 USAFA Robot Teaming Capstone 2022-2023
 
-This repository holds the code to run the SLAM algorithm on the convoy.
+This repository holds the instructions and code to run work of the Robot Teaming Capston 22/23. 
 The repository for the convoy, specifically the follower bots are located at the repository here: https://github.com/AF-ROBOTICS/Convoy
 
 
 # User Guide for Class of 24
-# Dependencies:
+# Dependencies
+following these instructions will help ensure you have all packages running so that you can execute the steps in the sections below.
 1. Cole the repo above into your src folder
 2. use ros command: rosdep install --from-paths src --ignore-src -r -y
 3. profit
