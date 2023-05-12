@@ -30,3 +30,7 @@ If you wish to restart both boards or start from scratch:
 2a. This will reset the IP address to 192.168.168.1
 3. Follow the user guide labeled here http://www.isnmp.com/download/pmddl2350/pMDDL.Operating%20Manual.v1.2.1.pdf
 4. When using this guide execute the quick start manual steps. I was not able to get the quick start (Automatic) to work, so I had to set up the new IP address manually and select slave and master.
+
+# Follower Bot
+Run the following command:
+donkeycar convoy.launch
