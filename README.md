@@ -5,7 +5,7 @@ This repository holds the instructions and code to run the work of the Robot Tea
 The repository for the convoy, specifically the follower bots are located at the repository here: https://github.com/AF-ROBOTICS/Convoy
 
 
-## User Guide for Class of 24
+## User Guide for USAFA Class of 2024
 ### Dependencies
 following these instructions will help ensure you have all packages running so that you can execute the steps in the sections below.
 1. Cole the repo above into your src folder
