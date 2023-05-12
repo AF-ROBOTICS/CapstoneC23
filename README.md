@@ -32,8 +32,13 @@ Once the SLAM is running from the steps above, following the next steps will all
 1. Ensure wiring is properly connected. The group has had issues in the past with the USB connection from the NUC to the Arduino.
 2. Ensure NUC and robot car are both powerd on and untethered, this is inticated by the ESC fan running and and blue light on the NUC. 
 3. Open a second tab in the terminal alongside the SLAM
-4. rosrun leaderbot leaderbot_serial.py
-5. rosrun leaderbot leader.py
+4. Run the command: rosrun leaderbot leaderbot_serial.py
+5. Open a third tab
+6. Run the command: rosrun leaderbot leader.py
+The above code will get the robot moving with a very rough wall following algorithm. To include the OpenMV camera and AprilTag detection:
+1. Open a fourth tab
+2. Run the command: rosrun  leaderbot apriltag_detect.py
+With all of these steps running, the leader will roughly wall follow until one of the cameras sees an AprilTag, then the whole system will stop.
 
 # Microhard
 The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. 
