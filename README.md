@@ -45,10 +45,11 @@ With all of these steps running, the leader will roughly wall follow until one o
 ### Microhard
 The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. 
 Current setup:
-1. 1 antenna on each board (Be careful this connection is delicate)
-2. The master is set at the IP address: 192.168.168.11
-3. The slave is set up at the IP address: 192.168.168.12
-4. These work just as routers after setup
+1. 1 antenna should already be on each board (Be careful this connection is delicate)
+1a. If these are not connected, carefully snap the female end of the antenna cable onto the male port found on the top of the board.
+3. The master is set at the IP address: 192.168.168.11
+4. The slave is set up at the IP address: 192.168.168.12
+5. These work just as routers after setup
 
 If you wish to restart both boards or start from scratch:
 1. Ensure the antenna is connected to the board - be careful as this connection is delicate
