@@ -7,13 +7,13 @@ The repository for the convoy, specifically the follower bots are located at the
 
 ## User Guide for USAFA Class of 2024
 ### Dependencies
-following these instructions will help ensure you have all packages running so that you can execute the steps in the sections below.
+Following these instructions will help ensure you have all packages running so that you can execute the steps in the sections below.
 1. Cole the repo above into your src folder
 2. use ros command: rosdep install --from-paths src --ignore-src -r -y
 3. profit
 
 ### SLAMming
-to get started slamming:
+To get started slamming:
 1. Ensure vlodyne lidar is connected via ethernet port and proper ip configuration is complete IAW ROS velodyne vlp16 tutorial (http://wiki.ros.org/velodyne/Tutorials-Getting%20Started%20with%20the%20Velodyne%20VLP16) 
 
 2. run command in your ros workspace:
@@ -22,10 +22,11 @@ to get started slamming:
 4. profit
 
 ### Navigation
+The navigation is work done outside of the current repo so an additional close is needed.
 1. clone https://github.com/fazildgr8/ros_autonomous_slam.git into src
 2. clone turtlebot3 and turtlebot3 simulation packages into src
 3. run: roslaunch slam_launch autonomous_explorer.launch
-4. for information on how to run simulation see: https://towardsdatascience.com/ros-autonomous-slam-using-randomly-exploring-random-tree-rrt-37186f6e3568
+4. for information and documentation on how to run simulation see: https://towardsdatascience.com/ros-autonomous-slam-using-randomly-exploring-random-tree-rrt-37186f6e3568
 
 
 ### Leader Bot Movement
