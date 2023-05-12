@@ -32,5 +32,9 @@ If you wish to restart both boards or start from scratch:
 4. When using this guide execute the quick start manual steps. I was not able to get the quick start (Automatic) to work, so I had to set up the new IP address manually and select slave and master.
 
 # Follower Bot
-Run the following command:
-donkeycar convoy.launch
+This robot has the Intel RealSense and the OpenMV camera attached to it.
+It uses the OpenMV camera to detect and follow the AprilTag. Setup is according to the diagrams found in the tech doc.
+To operate with its current setup:
+1. Open a terminal and ssh into the Raspberry Pi 4 on the follower
+2. Run the command: roslaunch donkeycar convoy.launch
+3. The follower will detect an AprilTag then will steer and maintain speed to ensure proprt following
