@@ -7,7 +7,7 @@ The repository for the convoy, specifically the follower bots are located at the
 
 # User Guide for Class of 24
 # Dependencies:
-1. Downloaad all desired packages into src
+1. Cole the repo above into your src folder
 2. use ros command: rosdep install --from-paths src --ignore-src -r -y
 3. profit
 
