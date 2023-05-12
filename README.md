@@ -6,6 +6,10 @@ The repository for the convoy, specifically the follower bots are located at the
 
 
 # User Guide for Class of 24
+# Dependencies:
+1. Downloaad all desired packages into src
+2. use ros command: rosdep install --from-paths src --ignore-src -r -y
+3. profit
 
 # SLAMming
 to get started slamming:
@@ -16,7 +20,14 @@ to get started slamming:
 3. This will lauch Rviz where you can see the slam in action
 4. profit
 
-# Leader Bot Movment
+# Navigation
+1. clone https://github.com/fazildgr8/ros_autonomous_slam.git into src
+2. clone turtlebot3 and turtlebot3 simulation packages into src
+3. run: roslaunch slam_launch autonomous_explorer.launch
+4. for information on how to run simulation see: https://towardsdatascience.com/ros-autonomous-slam-using-randomly-exploring-random-tree-rrt-37186f6e3568
+
+
+# Leader Bot Movement
 Once the SLAM is running from the steps above, following the next steps will allow the leader bot to start moving in according to the current layot described in the tech doc
 1. Ensure wiring is properly connected. The group has had issues in the past with the USB connection from the NUC to the Arduino.
 2. Ensure NUC and robot car are both powerd on and untethered, this is inticated by the ESC fan running and and blue light on the NUC. 
