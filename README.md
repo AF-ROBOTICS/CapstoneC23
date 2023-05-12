@@ -42,6 +42,14 @@ The above code will get the robot moving with a very rough wall following algori
 2. Run the command: rosrun  leaderbot apriltag_detect.py
 With all of these steps running, the leader will roughly wall follow until one of the cameras sees an AprilTag, then the whole system will stop.
 
+### Follower Bot
+This robot has the Intel RealSense and the OpenMV camera attached to it.
+It uses the OpenMV camera to detect and follow the AprilTag. Setup is according to the diagrams found in the tech doc.
+To operate with its current setup:
+1. Open a terminal and ssh into the Raspberry Pi 4 on the follower
+2. Run the command: roslaunch donkeycar convoy.launch
+3. The follower will detect an AprilTag then will steer and maintain speed to ensure proper following
+
 ### Microhard
 The microhards are set up at the IP addresses taped to them, one as a master and the other as a slave. 
 Current setup:
@@ -57,11 +65,3 @@ If you wish to restart both boards or start from scratch:
 2a. This will reset the IP address to 192.168.168.1
 3. Follow the user guide labeled here http://www.isnmp.com/download/pmddl2350/pMDDL.Operating%20Manual.v1.2.1.pdf
 4. When using this guide execute the quick start manual steps. I was not able to get the quick start (Automatic) to work, so I had to set up the new IP address manually and select slave and master.
-
-### Follower Bot
-This robot has the Intel RealSense and the OpenMV camera attached to it.
-It uses the OpenMV camera to detect and follow the AprilTag. Setup is according to the diagrams found in the tech doc.
-To operate with its current setup:
-1. Open a terminal and ssh into the Raspberry Pi 4 on the follower
-2. Run the command: roslaunch donkeycar convoy.launch
-3. The follower will detect an AprilTag then will steer and maintain speed to ensure proprt following
