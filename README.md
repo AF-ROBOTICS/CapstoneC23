@@ -46,7 +46,7 @@ With all of these steps running, the leader will roughly wall follow until one o
 This robot has the Intel RealSense and the OpenMV camera attached to it.
 It uses the OpenMV camera to detect and follow the AprilTag. All of the files need to get the follower up and running are located within one launch file. Setup is according to the diagrams found in the tech doc.
 To operate with its current setup:
-1. Ensure there is proper power to the Raspberry Pi 4 on the car.
+1. Ensure there is proper power to the Raspberry Pi 4 on the car. The group used the black battery that should be currently housed on the robot (It can also be found in the mutiple pictures in the presentations and tec doc).
 1. Open a terminal and ssh into the Raspberry Pi 4 on the follower
 2. Run the command: roslaunch donkeycar convoy.launch
 3. The follower will detect an AprilTag then will steer and maintain speed to ensure proper following
