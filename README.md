@@ -50,6 +50,7 @@ To operate with its current setup:
 1. Open a terminal and ssh into the Raspberry Pi 4 on the follower
 2. Run the command: roslaunch donkeycar convoy.launch
 3. The follower will detect an AprilTag then will steer and maintain speed to ensure proper following
+
 For more information, go to the follower exclusive github page
 
 ### Microhard
